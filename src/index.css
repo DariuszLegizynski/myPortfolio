@@ -1,3 +1,15 @@
+.link {
+  color: #191a1d;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  cursor: pointer;
+}
+
+.link:link, .link:visited, .link:active {
+  outline: none;
+  text-decoration: none;
+}
+
 *,
 *::before,
 *::after {
