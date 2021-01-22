@@ -1,0 +1,43 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 80%;
+  scroll-behavior: smooth;
+}
+
+body,
+input,
+textarea,
+button {
+  font-family: "Raleway", Open Sans, sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  background-color: #05c2c9;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+*::-moz-selection {
+  background: #069cdb;
+}
+
+*::selection {
+  background: #069cdb;
+}
+/*# sourceMappingURL=index.css.map */
