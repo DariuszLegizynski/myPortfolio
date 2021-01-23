@@ -12,3 +12,19 @@
 		text-decoration: none;
 	}
 }
+
+.icon {
+	fill: $color-black;
+	height: 3rem;
+	width: 3rem;
+
+	&:hover,
+	&:focus {
+		outline: none;
+	}
+
+	&--download {
+		height: 1.6rem;
+		width: 1.6rem;
+	}
+}

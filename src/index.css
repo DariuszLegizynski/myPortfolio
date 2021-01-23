@@ -10,6 +10,21 @@
   text-decoration: none;
 }
 
+.icon {
+  fill: #191a1d;
+  height: 3rem;
+  width: 3rem;
+}
+
+.icon:hover, .icon:focus {
+  outline: none;
+}
+
+.icon--download {
+  height: 1.6rem;
+  width: 1.6rem;
+}
+
 *,
 *::before,
 *::after {

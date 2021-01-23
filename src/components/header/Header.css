@@ -7,16 +7,43 @@
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin: 2rem 1rem;
-  opacity: 0.8;
 }
 
-.header__navigation {
+.header__wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.header__navigation {
+  display: none;
+}
+
+.header__navigation--open {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
 }
 
 .header__navigation__item {
   margin: 0 1rem;
+}
+
+.header__navigation__item__icon {
+  margin: 0 0.6rem;
 }
 /*# sourceMappingURL=Header.css.map */

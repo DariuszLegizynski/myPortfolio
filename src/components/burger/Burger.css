@@ -1,0 +1,69 @@
+.burger {
+  width: 3rem;
+  height: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+.burger__stick {
+  width: 3rem;
+  height: 0.25rem;
+  background-color: #00a4e8;
+  border-radius: 10px;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.burger__stick::before, .burger__stick::after {
+  content: "";
+  position: absolute;
+  width: 3rem;
+  height: 0.25rem;
+  background-color: #00a4e8;
+  border-radius: 10px;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.burger__stick::before {
+  -webkit-transform: translateY(-12px);
+          transform: translateY(-12px);
+}
+
+.burger__stick::after {
+  -webkit-transform: translateY(12px);
+          transform: translateY(12px);
+}
+
+.burger--open .burger__stick {
+  -webkit-transform: translateX(-50px);
+          transform: translateX(-50px);
+  background: transparent;
+}
+
+.burger--open .burger__stick::before {
+  -webkit-transform: rotate(45deg) translate(35px, -35px);
+          transform: rotate(45deg) translate(35px, -35px);
+}
+
+.burger--open .burger__stick::after {
+  -webkit-transform: rotate(-45deg) translate(35px, 35px);
+          transform: rotate(-45deg) translate(35px, 35px);
+}
+
+@media only screen and (min-width: 800px) {
+  .burger {
+    display: none;
+    visibility: hidden;
+  }
+}
+/*# sourceMappingURL=Burger.css.map */
