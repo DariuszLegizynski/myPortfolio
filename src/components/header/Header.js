@@ -20,7 +20,7 @@ const Header = () => {
 	}
 
 	return (
-		<div className="header">
+		<header className="header">
 			<div className="header__logo">
 				<Link className="link" to={"/"}>
 					LOGO
@@ -31,7 +31,7 @@ const Header = () => {
 				onClick={() => setOpenBurger(!openBurger)}
 			>
 				<Burger burgerClass={burgerClass} />
-				<div
+				<ul
 					className={`header__navigation${burgerClass}`}
 				>
 					<div className="header__navigation__item">
@@ -85,9 +85,9 @@ const Header = () => {
 							</svg>
 						</a>
 					</div>
-				</div>
+				</ul>
 			</div>
-		</div>
+		</header>
 	);
 };
 

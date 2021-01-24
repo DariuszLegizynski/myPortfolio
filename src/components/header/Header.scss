@@ -4,7 +4,11 @@
 	background-color: $main-color;
 	display: flex;
 	justify-content: space-between;
-	margin: 2rem 1rem;
+	position: fixed;
+	top: 0;
+	z-index: 10;
+	width: 100%;
+	padding: 0.5rem 0.6rem 0rem 0.6rem;
 
 	&__wrapper {
 		display: flex;
@@ -23,6 +27,11 @@
 
 		&__item {
 			margin: 0 1rem;
+
+			& > .link {
+				display: flex;
+				align-items: center;
+			}
 
 			&__icon {
 				margin: 0 0.6rem;

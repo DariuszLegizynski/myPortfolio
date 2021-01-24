@@ -6,7 +6,11 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin: 2rem 1rem;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  width: 100%;
+  padding: 0.5rem 0.6rem 0rem 0.6rem;
 }
 
 .header__wrapper {
@@ -41,6 +45,15 @@
 
 .header__navigation__item {
   margin: 0 1rem;
+}
+
+.header__navigation__item > .link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .header__navigation__item__icon {
