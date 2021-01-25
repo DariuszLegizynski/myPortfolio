@@ -23,7 +23,7 @@ button {
 	font-family: $font-family;
 	font-size: $font-size-500;
 	font-weight: $font-weight;
-	background-color: $main-color;
+	background-color: $color-main;
 }
 
 img {
@@ -36,5 +36,5 @@ ul {
 }
 
 *::selection {
-	background: $main-color-light;
+	background: $color-main-light;
 }

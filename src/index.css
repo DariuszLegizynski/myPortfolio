@@ -1,5 +1,25 @@
+.btn {
+  border: none;
+  background-color: transparent;
+  padding: 0rem 0.5rem;
+  font-size: 1.9rem;
+  border-radius: 3rem;
+  cursor: pointer;
+}
+
+.btn:hover, .btn:focus, .btn:active {
+  outline: none;
+}
+
+.btn--projects {
+  background-color: #069cdb;
+  margin: 2rem;
+  padding: 1.2rem;
+  color: #f5f5f5;
+}
+
 .link {
-  color: #191a1d;
+  color: #f5f5f5;
   -webkit-transition: all 0.2s ease-in;
   transition: all 0.2s ease-in;
   cursor: pointer;
@@ -8,6 +28,29 @@
 .link:link, .link:visited, .link:active {
   outline: none;
   text-decoration: none;
+}
+
+.link:focus, .link:hover {
+  outline: none;
+  text-decoration: none;
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.link:focus > button.btn--projects, .link:hover > button.btn--projects {
+  background-color: #05c2c9;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.link--logo {
+  color: #f5f5f5;
+}
+
+.link--logo:hover, .link--logo:focus {
+  color: #05c2c9;
 }
 
 .icon {
@@ -23,6 +66,7 @@
 .icon--download {
   height: 1.6rem;
   width: 1.6rem;
+  fill: #f5f5f5;
 }
 
 *,

@@ -1,14 +1,18 @@
 @import "../../styles/variables";
 
 .header {
-	background-color: $main-color;
+	background: linear-gradient(
+		rgba($color-black, 0.6),
+		rgba($color-black, 0.6)
+	);
 	display: flex;
 	justify-content: space-between;
 	position: fixed;
 	top: 0;
 	z-index: 10;
 	width: 100%;
-	padding: 0.5rem 0.6rem 0rem 0.6rem;
+	padding: 0.5rem 0.6rem 1rem 0.6rem;
+	border-bottom: 3px solid $color-main;
 
 	&__wrapper {
 		display: flex;

@@ -22,7 +22,7 @@ const Header = () => {
 	return (
 		<header className="header">
 			<div className="header__logo">
-				<Link className="link" to={"/"}>
+				<Link className="link link--logo" to={"/"}>
 					LOGO
 				</Link>
 			</div>
@@ -36,7 +36,7 @@ const Header = () => {
 				>
 					<div className="header__navigation__item">
 						<HashLink
-							className="link"
+							className="link link--about-me"
 							to="/#aboutMe"
 						>
 							About me
@@ -44,7 +44,7 @@ const Header = () => {
 					</div>
 					<div className="header__navigation__item">
 						<HashLink
-							className="link"
+							className="link link--projects"
 							to="/#projects"
 						>
 							Projects
@@ -52,7 +52,7 @@ const Header = () => {
 					</div>
 					<div className="header__navigation__item">
 						<HashLink
-							className="link"
+							className="link link--testimonials"
 							to="/#testimonials"
 						>
 							Testimonials
@@ -60,7 +60,7 @@ const Header = () => {
 					</div>
 					<div className="header__navigation__item">
 						<HashLink
-							className="link"
+							className="link link--contact"
 							to="/#contact"
 						>
 							Contact

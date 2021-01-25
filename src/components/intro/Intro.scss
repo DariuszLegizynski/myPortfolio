@@ -1,36 +1,43 @@
 @import "../../styles/variables";
+@import "../../styles/typography";
 
 .intro {
 	background: linear-gradient(
-			rgba(0, 0, 0, 0.4),
-			rgba(0, 0, 0, 0.4)
+			rgba($color-black, 0.6),
+			rgba($color-black, 0.6)
 		),
 		url("../../resources/images/greg-rakozy-oMpAz-DN-9I-unsplash.jpg")
 			center center no-repeat;
 	background-size: cover;
-	height: 100vh;
+	padding-top: 3.2rem;
 
 	&__wrapper {
-		// display: flex;
-		// flex-direction: column;
-		// align-items: center;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding: 1rem;
 
 		&__my-picture {
 			border-radius: 50%;
-			width: 25%;
+			max-width: 25%;
 			min-height: 8rem;
 			object-fit: cover;
 			object-position: bottom;
-			float: right;
-			margin-left: 1rem;
-			margin-bottom: 1rem;
+			margin: 1rem 0;
 		}
 
 		&__text {
-			text-align: justify;
+			text-align: center;
+			margin: 1rem 0;
 
-			& > h1 {
+			& > h2 {
 				color: $color-white;
+				font-size: $font-size-600;
+			}
+			& > h3 {
+				color: $color-white;
+				font-size: $font-size-500;
+				margin-top: 1rem;
 			}
 
 			& span {
@@ -39,7 +46,13 @@
 
 			& > p {
 				color: $color-white;
+				font-size: $font-size-300;
+				margin-top: 1rem;
 			}
+		}
+
+		&__projects {
+			margin-top: 2rem;
 		}
 	}
 }

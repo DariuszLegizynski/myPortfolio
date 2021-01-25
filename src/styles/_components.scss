@@ -1,7 +1,29 @@
 @import "./variables";
 
+.btn {
+	border: none;
+	background-color: transparent;
+	padding: 0rem 0.5rem;
+	font-size: $font-size-600;
+	border-radius: 3rem;
+	cursor: pointer;
+
+	&:hover,
+	&:focus,
+	&:active {
+		outline: none;
+	}
+
+	&--projects {
+		background-color: $color-main-light;
+		margin: 2rem;
+		padding: 1.2rem;
+		color: $color-white;
+	}
+}
+
 .link {
-	color: $color-black;
+	color: $color-white;
 	transition: all 0.2s ease-in;
 	cursor: pointer;
 
@@ -10,6 +32,28 @@
 	&:active {
 		outline: none;
 		text-decoration: none;
+	}
+
+	&:focus,
+	&:hover {
+		outline: none;
+		text-decoration: none;
+		transform: scale(1.05);
+		transition: all 0.2s ease-in-out;
+
+		& > button.btn--projects {
+			background-color: $color-main;
+			transition: all 0.2s ease-in-out;
+		}
+	}
+
+	&--logo {
+		color: $color-white;
+
+		&:hover,
+		&:focus {
+			color: $color-main;
+		}
 	}
 }
 
@@ -26,5 +70,6 @@
 	&--download {
 		height: 1.6rem;
 		width: 1.6rem;
+		fill: $color-white;
 	}
 }
