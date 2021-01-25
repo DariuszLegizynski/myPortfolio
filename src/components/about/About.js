@@ -15,12 +15,12 @@ const About = () => {
 			/>
 			<div className="about__text">
 				<h2 className="h2">
-					Hello! My name is
+					Hello! I'm
 					<br />
 					Dariusz Legizynski,
 				</h2>
 				<h2 className="h2">
-					a front-end developer from Wiener Neustadt,
+					A front-end developer from Wiener Neustadt,
 					AT.
 				</h2>
 				<p className="p">Lorem ipsum</p>
