@@ -53,6 +53,14 @@ const Header = () => {
 					<div className="header__navigation__item">
 						<HashLink
 							className="link link--testimonials"
+							to="/#skills"
+						>
+							Skills
+						</HashLink>
+					</div>
+					<div className="header__navigation__item">
+						<HashLink
+							className="link link--testimonials"
 							to="/#testimonials"
 						>
 							Testimonials

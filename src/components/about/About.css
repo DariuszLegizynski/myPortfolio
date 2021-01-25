@@ -1,0 +1,57 @@
+.about {
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 6rem;
+}
+
+.about__my-picture {
+  padding: 2rem;
+  border-radius: 3rem;
+  width: 100%;
+  vertical-align: middle;
+  border-style: none;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.about__text {
+  padding: 3rem;
+  text-align: center;
+}
+
+.about__text > h2 {
+  text-transform: capitalize;
+  margin-bottom: 1rem;
+}
+
+.about__text > p {
+  font-size: 1.3rem;
+}
+
+.about__contact a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 0.2rem;
+}
+
+.about__contact h6 {
+  font-weight: 500;
+}
+
+.about__contact .icon {
+  margin-right: 1rem;
+}
+/*# sourceMappingURL=About.css.map */
