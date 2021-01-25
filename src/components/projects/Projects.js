@@ -1,107 +1,67 @@
 import React from "react";
+import ProjectItem from "../projectItem/ProjectItem";
 
 // styles
 import "./Projects.css";
+import projectImageOne from "../../resources/images/projects/myAmazingShop.png";
+import projectImageTwo from "../../resources/images/projects/soccerTime.png";
+import projectImageThree from "../../resources/images/projects/readeo.png";
+import projectImageFour from "../../resources/images/projects/jsTetris.png";
 
 const Projects = () => {
 	return (
 		<section className="projects" id="projects">
 			<h1>Projects</h1>
 			<div className="projects__container">
-				<div className="projects__container__project">
-					<div className="projects__container__project__img">
-						<img
-							src=""
-							alt="myAmazingShop_project_thumbnail"
-						/>
-					</div>
-					<div className="projects__container__project__text">
-						<h3>myAmazinShop</h3>
-						<span>
-							An e-commerce web application made
-							based on amazon's functionality
-						</span>
-						<div>
-							<ul>
-								<li>REACTJS</li>
-								<li>REACT ROUTER</li>
-								<li>SASS</li>
-								<li>FIREBASE</li>
-								<li>FIRESTORE</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-				<div className="projects__container__project">
-					<div className="projects__container__project__img">
-						<img
-							src=""
-							alt="soccer-time_project_thumbnail"
-						/>
-					</div>
-					<div className="projects__container__project__text">
-						<h3>myAmazinShop</h3>
-						<span>
-							A web application made to view all
-							the football leagues and teams and
-							also the upcoming and past events.
-						</span>
-						<div>
-							<ul>
-								<li>REACTJS</li>
-								<li>REACT ROUTER</li>
-								<li>REDUX</li>
-								<li>SASS</li>
-								<li>FIREBASE</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-				<div className="projects__container__project">
-					<div className="projects__container__project__img">
-						<img
-							src=""
-							alt="readeo_project_thumbnail"
-						/>
-					</div>
-					<div className="projects__container__project__text">
-						<h3>Readeo</h3>
-						<span>
-							A web application made to search and
-							view youtube videos. Favorited ones
-							can be saved on created lists and
-							watched later on.
-						</span>
-						<div>
-							<ul>
-								<li>REACTJS</li>
-								<li>REACT ROUTER</li>
-								<li>SASS</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-				<div className="projects__container__project">
-					<div className="projects__container__project__img">
-						<img
-							src=""
-							alt="tetrs_project_thumbnail"
-						/>
-					</div>
-					<div className="projects__container__project__text">
-						<h3>TetrisJS</h3>
-						<span>
-							A well known game made in pure
-							Javascript: Tetris.
-						</span>
-						<div>
-							<ul>
-								<li>Javascript</li>
-								<li>Bootstrap 4</li>
-							</ul>
-						</div>
-					</div>
-				</div>
+				<ProjectItem
+					thumbnail={projectImageOne}
+					altName={"myAmazingShop"}
+					title={"my Amazing Shop"}
+					description={
+						"An e-commerce web application, based on amazon's functionality"
+					}
+					hideRedux
+					hideJS
+					hideBootstrap
+				/>
+				<ProjectItem
+					thumbnail={projectImageTwo}
+					altName={"soccerTime"}
+					title={"Soccer Time"}
+					description={
+						"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+					}
+					hideFirestore
+					hideJS
+					hideBootstrap
+				/>
+				<ProjectItem
+					thumbnail={projectImageThree}
+					altName={"readeo"}
+					title={"Readeo"}
+					description={
+						"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+					}
+					hideRedux
+					hideFirebase
+					hideFirestore
+					hideJS
+					hideBootstrap
+				/>
+				<ProjectItem
+					thumbnail={projectImageFour}
+					altName={"tetrisJS"}
+					title={"Tetris JS"}
+					description={
+						"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+					}
+					hideReact
+					hideRouter
+					hideRedux
+					hideSass
+					hideFirebase
+					hideFirestore
+				/>
 			</div>
 		</section>
 	);

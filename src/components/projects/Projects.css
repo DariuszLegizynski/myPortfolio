@@ -12,4 +12,8 @@
       -ms-flex-align: center;
           align-items: center;
 }
+
+.projects > h1 {
+  padding-bottom: 3rem;
+}
 /*# sourceMappingURL=Projects.css.map */
