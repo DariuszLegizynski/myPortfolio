@@ -23,7 +23,7 @@
 }
 
 .link {
-	color: $color-white;
+	color: $color-black;
 	transition: all 0.2s ease-in;
 	cursor: pointer;
 
@@ -48,6 +48,10 @@
 		}
 	}
 
+	&--contact {
+		color: $color-black;
+	}
+
 	&--page {
 		color: $color-white;
 
@@ -60,18 +64,24 @@
 }
 
 .icon {
-	fill: $color-black;
+	fill: $color-main-light;
 	height: 2.2rem;
 	width: 2.2rem;
 
 	&:hover,
 	&:focus {
 		outline: none;
+		fill: $color-main;
 	}
 
 	&--download {
 		height: 1.6rem;
 		width: 1.6rem;
 		fill: $color-main;
+	}
+
+	&--skill {
+		height: 6rem;
+		width: 6rem;
 	}
 }

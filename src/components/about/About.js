@@ -19,10 +19,10 @@ const About = () => {
 					<br />
 					Dariusz Legizynski,
 				</h2>
-				<h2 className="h2">
-					A front-end developer from Wiener Neustadt,
-					AT.
-				</h2>
+				<h3 className="h2">
+					A React Front-End developer from Wiener
+					Neustadt, AT.
+				</h3>
 				<p className="p">Lorem ipsum</p>
 				<p className="p">
 					I decided to take my passion seriously and

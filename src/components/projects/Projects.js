@@ -18,7 +18,7 @@ const Projects = () => {
 					altName={"myAmazingShop"}
 					title={"my Amazing Shop"}
 					description={
-						"An e-commerce web application, based on amazon's functionality"
+						"An e-commerce web application, based on amazon's functionality."
 					}
 					hideRedux
 					hideJS
