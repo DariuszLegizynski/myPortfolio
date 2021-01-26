@@ -1,4 +1,9 @@
 .testimonials {
-  background-color: palegreen;
+  text-align: center;
+  padding: 3rem;
+}
+
+.testimonials > h1 {
+  padding-bottom: 3rem;
 }
 /*# sourceMappingURL=Testimonials.css.map */

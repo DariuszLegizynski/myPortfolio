@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AACC,kBADiB,GACb,CAAC,CAAC;EACL,SAAS,ECAK,MAAM;CDCpB;;AAHF,AAKC,kBALiB,GAKb,EAAE,CAAC;EACN,OAAO,EAAE,QAAQ;CACjB",
+    "sources": [
+        "Testimonial.scss",
+        "../../styles/_typography.scss"
+    ],
+    "names": [],
+    "file": "Testimonial.css"
+}

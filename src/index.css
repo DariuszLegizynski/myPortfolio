@@ -33,7 +33,7 @@
 .link:focus, .link:hover {
   outline: none;
   text-decoration: none;
-  color: #05c2c9;
+  color: #069cdb;
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
   -webkit-transition: all 0.2s ease-in-out;
@@ -41,7 +41,7 @@
 }
 
 .link:focus > button.btn--projects, .link:hover > button.btn--projects {
-  background-color: #05c2c9;
+  background-color: #069cdb;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
@@ -55,7 +55,7 @@
 }
 
 .link--page:hover, .link--page:focus {
-  color: #05c2c9;
+  color: #069cdb;
   -webkit-transform: none;
           transform: none;
 }
@@ -74,7 +74,7 @@
 .icon--download {
   height: 1.6rem;
   width: 1.6rem;
-  fill: #05c2c9;
+  fill: #069cdb;
 }
 
 .icon--skill {
