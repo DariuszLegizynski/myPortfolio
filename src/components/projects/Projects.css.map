@@ -1,8 +1,9 @@
 {
     "version": 3,
-    "mappings": "AAAA,AAAA,SAAS,CAAC;EACT,WAAW,EAAE,IAAI;EACjB,MAAM,EAAE,IAAI;EAEZ,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB,WAAW,EAAE,MAAM;CAKnB;;AAXD,AAQC,SARQ,GAQJ,EAAE,CAAC;EACN,cAAc,EAAE,IAAI;CACpB",
+    "mappings": "AAEA,AAAA,SAAS,CAAC;EACT,OAAO,EAAE,MAAM;EACf,MAAM,EAAE,IAAI;EACZ,gBAAgB,ECGJ,OAAO;EDDnB,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB,WAAW,EAAE,MAAM;CAMnB;;AAbD,AASC,SATQ,GASJ,EAAE,CAAC;EACN,cAAc,EAAE,MAAM;EACtB,eAAe,EAAE,SAAS;CAC1B",
     "sources": [
-        "Projects.scss"
+        "Projects.scss",
+        "../../styles/_variables.scss"
     ],
     "names": [],
     "file": "Projects.css"

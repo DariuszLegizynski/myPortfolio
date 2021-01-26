@@ -38,6 +38,7 @@
 	&:hover {
 		outline: none;
 		text-decoration: none;
+		color: $color-main;
 		transform: scale(1.05);
 		transition: all 0.2s ease-in-out;
 
@@ -47,16 +48,13 @@
 		}
 	}
 
-	&--contact {
-		color: $color-black;
-	}
-
-	&--logo {
+	&--page {
 		color: $color-white;
 
 		&:hover,
 		&:focus {
 			color: $color-main;
+			transform: none;
 		}
 	}
 }
@@ -74,6 +72,6 @@
 	&--download {
 		height: 1.6rem;
 		width: 1.6rem;
-		fill: $color-white;
+		fill: $color-main;
 	}
 }

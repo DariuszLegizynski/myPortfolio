@@ -16,37 +16,70 @@
   opacity: 0;
   -webkit-transition: opacity 0.5s ease-in-out;
   transition: opacity 0.5s ease-in-out;
-  padding: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .project-item__container__text:hover, .project-item__container__text:focus {
   opacity: 1;
 }
 
-.project-item__container__text__link > h3,
-.project-item__container__text__link > span {
-  color: #f5f5f5;
-  padding-bottom: 1rem;
+.project-item__container__text__link {
+  padding-bottom: 0.3rem;
+  line-height: 0.8;
 }
 
-.project-item__container__text__link > h3:hover, .project-item__container__text__link > h3:focus,
-.project-item__container__text__link > span:hover,
-.project-item__container__text__link > span:focus {
-  color: #069cdb;
+.project-item__container__text__link > h3 {
+  color: #f5f5f5;
+  padding-bottom: 0.3rem;
+  font-size: 1.3rem;
+}
+
+.project-item__container__text__link > h3:hover, .project-item__container__text__link > h3:focus {
+  color: #05c2c9;
+}
+
+.project-item__container__text__link > span {
+  color: #f5f5f5;
+  font-size: 1.1rem;
+}
+
+.project-item__container__text__link > span:hover, .project-item__container__text__link > span:focus {
+  color: #05c2c9;
 }
 
 .project-item__container__text__tags {
-  margin-top: 1rem;
+  margin-top: 0.3rem;
 }
 
 .project-item__container__text__tags > ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .project-item__container__text__tags > ul > li {
   color: #05c2c9;
+  font-size: 1.1rem;
+  margin: 0.2rem 0.6rem;
+  border-bottom: 1px solid #f5f5f5;
+  text-transform: uppercase;
 }
 
 .project-item__container img {

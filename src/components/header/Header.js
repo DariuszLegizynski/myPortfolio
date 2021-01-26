@@ -22,7 +22,7 @@ const Header = () => {
 	return (
 		<header className="header">
 			<div className="header__logo">
-				<Link className="link link--logo" to={"/"}>
+				<Link className="link link--page" to={"/"}>
 					LOGO
 				</Link>
 			</div>

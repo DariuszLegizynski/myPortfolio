@@ -1,6 +1,7 @@
 .projects {
-  padding-top: 6rem;
+  padding: 6rem 0;
   height: auto;
+  background-color: #05c2c9;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -14,6 +15,7 @@
 }
 
 .projects > h1 {
-  padding-bottom: 3rem;
+  padding-bottom: 1.6rem;
+  text-decoration: underline;
 }
 /*# sourceMappingURL=Projects.css.map */
