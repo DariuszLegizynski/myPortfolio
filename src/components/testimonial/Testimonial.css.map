@@ -1,9 +1,10 @@
 {
     "version": 3,
-    "mappings": "AAEA,AACC,kBADiB,GACb,CAAC,CAAC;EACL,SAAS,ECAK,MAAM;CDCpB;;AAHF,AAKC,kBALiB,GAKb,EAAE,CAAC;EACN,OAAO,EAAE,QAAQ;CACjB",
+    "mappings": "AAGA,AAAA,kBAAkB,CAAC;EAClB,cAAc,EAAE,IAAI;CAYpB;;AAbD,AAEC,kBAFiB,GAEb,CAAC,CAAC;EACL,SAAS,ECFK,MAAM;CDGpB;;AAJF,AAMC,kBANiB,GAMb,EAAE,CAAC;EACN,OAAO,EAAE,iBAAiB;CAC1B",
     "sources": [
         "Testimonial.scss",
-        "../../styles/_typography.scss"
+        "../../styles/_typography.scss",
+        "../../styles/_variables.scss"
     ],
     "names": [],
     "file": "Testimonial.css"

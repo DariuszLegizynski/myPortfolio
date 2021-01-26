@@ -1,8 +1,10 @@
 {
     "version": 3,
-    "mappings": "AAAA,AAAA,aAAa,CAAC;EACb,UAAU,EAAE,MAAM;EAClB,OAAO,EAAE,IAAI;CAKb;;AAPD,AAIC,aAJY,GAIR,EAAE,CAAC;EACN,cAAc,EAAE,IAAI;CACpB",
+    "mappings": "AAGA,AAAA,aAAa,CAAC;EACb,UAAU,EAAE,MAAM;EAClB,OAAO,EAAE,IAAI;CAKb;;AAPD,AAIC,aAJY,GAIR,EAAE,CAAC;EACN,cAAc,EAAE,IAAI;CACpB;;AAGF,AAAA,WAAW,CAAC,EAAE,CAAC;EACd,MAAM,EAAE,QAAQ;CAChB;;AAED,AAAA,WAAW,CAAC,EAAE,CAAC,MAAM,AAAA,OAAO,CAAC;EAC5B,SAAS,EEXM,MAAM;CFYrB;;AAED,AAAA,WAAW,CAAC,EAAE,AAAA,aAAa,CAAC,MAAM,AAAA,OAAO,CAAC;EACzC,KAAK,ECTY,OAAO;EDUxB,SAAS,EEhBM,MAAM;CFiBrB",
     "sources": [
-        "Testimonials.scss"
+        "Testimonials.scss",
+        "../../styles/_variables.scss",
+        "../../styles/_typography.scss"
     ],
     "names": [],
     "file": "Testimonials.css"

@@ -1,11 +1,17 @@
 @import "../../styles/typography";
+@import "../../styles/variables";
 
 .testimonial__text {
+	padding-bottom: 2rem;
 	& > p {
 		font-size: $font-size-300;
 	}
 
 	& > h4 {
-		padding: 0.6rem 0;
+		padding: 0.6rem 0 1.2rem 0;
 	}
+
+	// & > a {
+	// 	color: $color-black;
+	// }
 }

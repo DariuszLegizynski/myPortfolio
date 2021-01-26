@@ -6,4 +6,17 @@
 .testimonials > h1 {
   padding-bottom: 3rem;
 }
+
+.slick-dots li {
+  margin: 0 1.6rem;
+}
+
+.slick-dots li button:before {
+  font-size: 1.6rem;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #e31c6e;
+  font-size: 1.6rem;
+}
 /*# sourceMappingURL=Testimonials.css.map */
