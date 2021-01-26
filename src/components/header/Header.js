@@ -36,15 +36,15 @@ const Header = () => {
 				>
 					<div className="header__navigation__item">
 						<HashLink
-							className="link link--about-me"
-							to="/#aboutMe"
+							className="link link--page"
+							to="/#about"
 						>
-							About me
+							About Me
 						</HashLink>
 					</div>
 					<div className="header__navigation__item">
 						<HashLink
-							className="link link--projects"
+							className="link link--page"
 							to="/#projects"
 						>
 							Projects
@@ -52,7 +52,7 @@ const Header = () => {
 					</div>
 					<div className="header__navigation__item">
 						<HashLink
-							className="link link--testimonials"
+							className="link link--page"
 							to="/#skills"
 						>
 							Skills
@@ -60,7 +60,7 @@ const Header = () => {
 					</div>
 					<div className="header__navigation__item">
 						<HashLink
-							className="link link--testimonials"
+							className="link link--page"
 							to="/#testimonials"
 						>
 							Testimonials
@@ -68,7 +68,7 @@ const Header = () => {
 					</div>
 					<div className="header__navigation__item">
 						<HashLink
-							className="link link--contact"
+							className="link link--page"
 							to="/#contact"
 						>
 							Contact
@@ -76,10 +76,10 @@ const Header = () => {
 					</div>
 					<div className="header__navigation__item">
 						<a
-							className="link"
+							className="link link--page"
 							target="_blank"
 							rel="noreferrer"
-							href="https://github.com/DariuszLegizynski/myPortfolio"
+							href="https://github.com/DariuszLegizynski"
 							download
 						>
 							Resume

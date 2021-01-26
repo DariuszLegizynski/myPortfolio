@@ -8,7 +8,7 @@ import "./Skills.css";
 
 const Skills = () => {
 	return (
-		<section className="skills">
+		<section className="skills" id="skills">
 			<div className="skills__text">
 				<h2>Skills</h2>
 				<p>
@@ -17,10 +17,6 @@ const Skills = () => {
 				</p>
 			</div>
 			<div className="skills__wrapper">
-				<Skill
-					name={"visualstudiocode"}
-					description={"VS Code"}
-				/>
 				<Skill name={"html5"} description={"HTML 5"} />
 				<Skill
 					name={"sass"}
@@ -39,6 +35,19 @@ const Skills = () => {
 				<Skill
 					name={"redux1"}
 					description={"React-Redux"}
+				/>
+			</div>
+			<div className="skills__text">
+				<h2>Tools</h2>
+				<p>
+					My tools of choic to help me complete any
+					upcoming challenges.
+				</p>
+			</div>
+			<div className="skills__wrapper">
+				<Skill
+					name={"visualstudiocode"}
+					description={"VS Code"}
 				/>
 				<Skill
 					name={"firebase"}
