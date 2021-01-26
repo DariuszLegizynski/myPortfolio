@@ -12,7 +12,9 @@
 
 .skills__text > p {
   padding: 0 2rem 1rem 2rem;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
+  font-weight: 500;
+  line-height: 1.2;
 }
 
 .skills__wrapper {

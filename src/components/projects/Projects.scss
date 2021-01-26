@@ -3,7 +3,7 @@
 .projects {
 	padding: 6rem 0;
 	height: auto;
-	background-color: $color-main;
+	background-color: $color-white;
 
 	display: flex;
 	flex-direction: column;
@@ -11,6 +11,5 @@
 
 	& > h1 {
 		padding-bottom: 1.6rem;
-		text-decoration: underline;
 	}
 }

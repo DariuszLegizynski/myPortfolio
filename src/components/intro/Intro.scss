@@ -2,13 +2,14 @@
 @import "../../styles/typography";
 
 .intro {
-	background: linear-gradient(
-			rgba($color-black, 0.6),
-			rgba($color-black, 0.6)
-		),
-		url("../../resources/images/greg-rakozy-oMpAz-DN-9I-unsplash.jpg")
-			center center no-repeat;
-	background-size: cover;
+	background-color: $color-black;
+	// background: linear-gradient(
+	// 		rgba($color-black, 0.6),
+	// 		rgba($color-black, 0.6)
+	// 	),
+	// 	url("../../resources/images/greg-rakozy-oMpAz-DN-9I-unsplash.jpg")
+	// 		center center no-repeat;
+	// background-size: cover;
 	padding-top: 3.2rem;
 	min-height: 100vh;
 

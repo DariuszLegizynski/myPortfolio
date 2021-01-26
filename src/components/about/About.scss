@@ -26,8 +26,13 @@
 			margin-bottom: 1rem;
 		}
 
+		& > h3 {
+			margin-bottom: 1rem;
+		}
+
 		& > p {
 			font-size: $font-size-300;
+			margin-bottom: 1rem;
 		}
 	}
 
@@ -44,7 +49,6 @@
 
 		& .icon {
 			margin-right: 1rem;
-			// fill: $color-main-light;
 		}
 
 		& > ul {
