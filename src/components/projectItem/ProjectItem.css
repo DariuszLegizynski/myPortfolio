@@ -37,7 +37,7 @@
 
 .project-item__container__text__link {
   padding-bottom: 0.3rem;
-  line-height: 0.8;
+  line-height: 1;
 }
 
 .project-item__container__text__link > h3 {
@@ -50,12 +50,13 @@
   color: #05c2c9;
 }
 
-.project-item__container__text__link > span {
+.project-item__container__text__link > p {
   color: #f5f5f5;
   font-size: 1.1rem;
+  padding: 0 1.4rem;
 }
 
-.project-item__container__text__link > span:hover, .project-item__container__text__link > span:focus {
+.project-item__container__text__link > p:hover, .project-item__container__text__link > p:focus {
   color: #05c2c9;
 }
 

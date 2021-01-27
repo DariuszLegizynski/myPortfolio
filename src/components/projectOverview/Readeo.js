@@ -1,23 +1,20 @@
 import React from "react";
+
+// tools
 import { Link } from "react-router-dom";
 
-const ProjectOverview = ({
-	hideReact,
-	hideRouter,
-	hideRedux,
-	hideSass,
-	hideFirebase,
-	hideFirestore,
-	hideJS,
-	hideBootstrap,
-}) => {
+// styles
+import image from "../../resources/images/projects/Large/readeo.png";
+import "./ProjectOverview.css";
+
+const Readeo = () => {
 	return (
 		<section className="overview">
 			<div className="overview__presentation">
 				<div className="overview__presentation__intro">
-					<h1>Projects Title</h1>
+					<h1>Readeo</h1>
 					<div className="overview__presentation__intro__text">
-						<img src="" alt="" />
+						<img src={image} alt="readeo" />
 						<p>
 							Lorem ipsum dolor sit amet,
 							consectetur adipiscing elit, sed do
@@ -69,19 +66,16 @@ const ProjectOverview = ({
 			<div className="overview__skills">
 				<h1>Used Technologies:</h1>
 				<ul>
-					{!hideReact && <li>REACTJS</li>}
-					{!hideRouter && <li>REACT ROUTER</li>}
-					{!hideRedux && <li>REDUX</li>}
-					{!hideSass && <li>SASS</li>}
-					{!hideFirebase && <li>FIREBASE</li>}
-					{!hideFirestore && <li>FIRESTORE</li>}
-					{!hideJS && <li>JAVASCRIPT</li>}
-					{!hideBootstrap && <li>BOOTSTRAP 4</li>}
+					<li>REACTJS</li>
+					<li>REACT ROUTER</li>
+					<li>SASS</li>
 				</ul>
 			</div>
-			<Link to={"/"}>&barr; Back</Link>
+			<Link className="link" to={"/"}>
+				&larr; Back
+			</Link>
 		</section>
 	);
 };
 
-export default ProjectOverview;
+export default Readeo;

@@ -18,7 +18,7 @@ const Projects = () => {
 					altName={"myAmazingShop"}
 					title={"my Amazing Shop"}
 					description={
-						"An e-commerce web application, based on amazon's functionality."
+						"An e-commerce web application, with purchase option and orders history."
 					}
 					hideRedux
 					hideJS
@@ -29,7 +29,7 @@ const Projects = () => {
 					altName={"soccerTime"}
 					title={"Soccer Time"}
 					description={
-						"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+						"Get and check your favorites leagues and teams."
 					}
 					hideFirestore
 					hideJS
@@ -40,7 +40,7 @@ const Projects = () => {
 					altName={"readeo"}
 					title={"Readeo"}
 					description={
-						"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+						"Search youtube for interesting movies and add them to your favorites."
 					}
 					hideRedux
 					hideFirebase
@@ -53,7 +53,7 @@ const Projects = () => {
 					altName={"tetrisJS"}
 					title={"Tetris JS"}
 					description={
-						"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+						"A well known tetris game. Made in pure JavaScript."
 					}
 					hideReact
 					hideRouter

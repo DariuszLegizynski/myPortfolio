@@ -1,5 +1,7 @@
-// styles
+// tools
 import { Link } from "react-router-dom";
+
+// styles
 import "./ProjectItem.css";
 
 const ProjectItem = ({
@@ -30,7 +32,7 @@ const ProjectItem = ({
 						className="project-item__container__text__link link link--page"
 					>
 						<h3>{title}</h3>
-						<span>{description}</span>
+						<p>{description}</p>
 					</Link>
 					<div className="project-item__container__text__tags">
 						<ul>

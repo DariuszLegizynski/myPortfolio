@@ -29,7 +29,7 @@
 
 			&__link {
 				padding-bottom: 0.3rem;
-				line-height: 0.8;
+				line-height: 1;
 
 				& > h3 {
 					color: $color-white;
@@ -42,9 +42,10 @@
 					}
 				}
 
-				& > span {
+				& > p {
 					color: $color-white;
 					font-size: $font-size-100;
+					padding: 0 1.4rem;
 
 					&:hover,
 					&:focus {
