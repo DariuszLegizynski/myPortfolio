@@ -1,38 +1,14 @@
 import React from "react";
 
-// style
-import "./About.css";
-import myPicture from "../../resources/images/myself/me.png";
+// styles
+import "./Contact.css";
 import icon from "../../resources/icons/sprite.svg";
 
-const About = () => {
+const Contact = () => {
 	return (
-		<section className="about" id="about">
-			<img
-				className="about__my-picture"
-				src={myPicture}
-				alt="me"
-			/>
-			<div className="about__text">
-				<h2 className="h2">
-					Hello! I'm
-					<br />
-					Dariusz Legizynski,
-				</h2>
-				<h3 className="h2">
-					A React Front-End developer from Wiener
-					Neustadt, AT.
-				</h3>
-				<p className="p">Lorem ipsum</p>
-				<p className="p">
-					I decided to take my passion seriously and
-					develop my programming skills. Each day I
-					spent coding was a joyful day for me
-					exploring new areas. I like taking on new
-					challenges.
-				</p>
-			</div>
-			<div className="about__contact">
+		<section className="contact" id="contact">
+			<h1>Contact me!</h1>
+			<div className="contact__wrapper">
 				<ul>
 					<h6>
 						<a
@@ -96,7 +72,7 @@ const About = () => {
 									}
 								/>
 							</svg>
-							/u/DariuszLegizynski
+							u/DariuszLegizynski
 						</a>
 					</h6>
 					<h6>
@@ -123,4 +99,4 @@ const About = () => {
 	);
 };
 
-export default About;
+export default Contact;

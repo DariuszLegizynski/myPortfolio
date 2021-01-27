@@ -12,7 +12,7 @@
 }
 
 .btn--projects {
-  background-color: #069cdb;
+  background-color: #05c2c9;
   margin: 2rem;
   padding: 1.2rem;
   color: #f5f5f5;
@@ -33,7 +33,7 @@
 .link:focus, .link:hover {
   outline: none;
   text-decoration: none;
-  color: #069cdb;
+  color: #05c2c9;
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
   -webkit-transition: all 0.2s ease-in-out;
@@ -55,13 +55,13 @@
 }
 
 .link--page:hover, .link--page:focus {
-  color: #069cdb;
+  color: #05c2c9;
   -webkit-transform: none;
           transform: none;
 }
 
 .icon {
-  fill: #069cdb;
+  fill: #05c2c9;
   height: 2.2rem;
   width: 2.2rem;
 }
@@ -74,7 +74,15 @@
 .icon--download {
   height: 1.6rem;
   width: 1.6rem;
-  fill: #069cdb;
+  fill: #05c2c9;
+}
+
+.icon--footer {
+  fill: #f5f5f5;
+}
+
+.icon--footer:hover, .icon--footer:focus {
+  fill: #191a1d;
 }
 
 .icon--skill {

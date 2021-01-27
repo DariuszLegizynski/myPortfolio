@@ -1,0 +1,24 @@
+.footer {
+  background-color: #069cdb;
+  padding: 2rem;
+}
+
+.footer__icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer__text {
+  font-size: 1.1rem;
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.footer__text > p {
+  color: #f5f5f5;
+}
+/*# sourceMappingURL=Footer.css.map */

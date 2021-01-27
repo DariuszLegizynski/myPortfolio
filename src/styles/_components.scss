@@ -15,7 +15,7 @@
 	}
 
 	&--projects {
-		background-color: $color-main-light;
+		background-color: $color-main;
 		margin: 2rem;
 		padding: 1.2rem;
 		color: $color-white;
@@ -38,7 +38,7 @@
 	&:hover {
 		outline: none;
 		text-decoration: none;
-		color: $color-main-light;
+		color: $color-main;
 		transform: scale(1.05);
 		transition: all 0.2s ease-in-out;
 
@@ -57,14 +57,14 @@
 
 		&:hover,
 		&:focus {
-			color: $color-main-light;
+			color: $color-main;
 			transform: none;
 		}
 	}
 }
 
 .icon {
-	fill: $color-main-light;
+	fill: $color-main;
 	height: 2.2rem;
 	width: 2.2rem;
 
@@ -77,7 +77,16 @@
 	&--download {
 		height: 1.6rem;
 		width: 1.6rem;
-		fill: $color-main-light;
+		fill: $color-main;
+	}
+
+	&--footer {
+		fill: $color-white;
+
+		&:hover,
+		&:focus {
+			fill: $color-black;
+		}
 	}
 
 	&--skill {

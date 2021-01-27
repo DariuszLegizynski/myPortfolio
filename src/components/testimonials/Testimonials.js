@@ -26,6 +26,16 @@ const Testimonials = () => {
 		autoplaySpeed: 5000,
 		fade: true,
 		cssEase: "linear",
+		responsive: [
+			{
+				breakpoint: 16000,
+				settings: "unslick",
+			},
+			{
+				breakpoint: 768,
+				settings: "slick",
+			},
+		],
 	};
 	return (
 		<section className="testimonials" id="testimonials">

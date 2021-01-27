@@ -1,0 +1,22 @@
+@import "../../styles/variables";
+@import "../../styles/typography";
+
+.footer {
+	background-color: $color-main-light;
+	padding: 2rem;
+
+	&__icons {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__text {
+		font-size: $font-size-100;
+		text-align: center;
+		margin: 1rem 0;
+
+		& > p {
+			color: $color-white;
+		}
+	}
+}
