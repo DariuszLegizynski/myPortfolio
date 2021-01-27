@@ -38,7 +38,6 @@ const Readeo = () => {
 						target="_blank"
 						rel="noreferrer"
 						href="live"
-						download
 					>
 						<button
 							className="btn--projects btn"
@@ -52,7 +51,6 @@ const Readeo = () => {
 						target="_blank"
 						rel="noreferrer"
 						href="Github"
-						download
 					>
 						<button
 							className="btn--projects btn"
