@@ -26,7 +26,7 @@ const ProjectItem = ({
 
 				<div className="project-item__container__text">
 					<Link
-						to={`/${altName}`}
+						to={`/projects/${altName}`}
 						className="project-item__container__text__link link link--page"
 					>
 						<h3>{title}</h3>
