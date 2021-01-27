@@ -1,4 +1,5 @@
 .overview {
+  margin: 0 1rem;
   padding: 3rem 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -40,7 +41,9 @@
 }
 
 .overview__presentation__intro__text > img {
-  padding-bottom: 1rem;
+  padding: 1.6rem;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .overview__skills {
