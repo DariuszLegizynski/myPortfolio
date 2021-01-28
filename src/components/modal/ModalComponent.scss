@@ -1,4 +1,5 @@
 @import "../../styles/typography";
+@import "../../styles/variables";
 
 .modal {
 	&__btn {
@@ -26,6 +27,8 @@
 		justify-content: center;
 
 		& > a {
+			margin: 1rem 0;
+
 			& > button {
 				margin: 1rem;
 				padding: 0.3rem 0.6rem;
@@ -49,6 +52,9 @@
 
 			& > li {
 				margin: 0.2rem;
+				padding: 0.2rem 0.5rem;
+				background-color: $color-main;
+				color: $color-white;
 			}
 		}
 	}

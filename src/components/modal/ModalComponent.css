@@ -34,6 +34,10 @@
           justify-content: center;
 }
 
+.modal__links > a {
+  margin: 1rem 0;
+}
+
 .modal__links > a > button {
   margin: 1rem;
   padding: 0.3rem 0.6rem;
@@ -62,5 +66,8 @@
 
 .modal__technology > ul > li {
   margin: 0.2rem;
+  padding: 0.2rem 0.5rem;
+  background-color: #05c2c9;
+  color: #f5f5f5;
 }
 /*# sourceMappingURL=ModalComponent.css.map */
