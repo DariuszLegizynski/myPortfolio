@@ -1,0 +1,66 @@
+.modal__btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 2rem 0;
+}
+
+.modal__text {
+  text-align: center;
+}
+
+.modal__text > h2 {
+  font-size: 2.2rem;
+  margin: 1.2rem 0;
+}
+
+.modal__text > p {
+  font-size: 1.3rem;
+}
+
+.modal__links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.modal__links > a > button {
+  margin: 1rem;
+  padding: 0.3rem 0.6rem;
+  font-size: 1.6rem;
+}
+
+.modal__technology {
+  text-align: center;
+}
+
+.modal__technology > h2 {
+  font-size: 1.9rem;
+  margin: 1.2rem 0;
+}
+
+.modal__technology > ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.modal__technology > ul > li {
+  margin: 0.2rem;
+}
+/*# sourceMappingURL=ModalComponent.css.map */

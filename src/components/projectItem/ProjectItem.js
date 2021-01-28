@@ -1,14 +1,18 @@
 // tools
-import { Link } from "react-router-dom";
+import ModalComponent from "../modal/ModalComponent";
 
 // styles
 import "./ProjectItem.css";
 
 const ProjectItem = ({
 	thumbnail,
+	large,
 	altName,
 	title,
 	description,
+	descriptionLong,
+	linkLive,
+	linkGithub,
 	hideReact,
 	hideRouter,
 	hideRedux,
@@ -27,18 +31,28 @@ const ProjectItem = ({
 				/>
 
 				<div className="project-item__container__text">
-					<Link
-						to={`/projects/${altName}`}
-						className="project-item__container__text__link link link--page"
-					>
-						<h3>{title}</h3>
-						<p>{description}</p>
-					</Link>
+					<ModalComponent
+						large={large}
+						title={title}
+						description={description}
+						descriptionLong={descriptionLong}
+						linkLive={linkLive}
+						linkGithub={linkGithub}
+						hideReact={hideReact}
+						hideRouter={hideRouter}
+						hideRedux={hideRedux}
+						hideSass={hideSass}
+						hideFirebase={hideFirebase}
+						hideFirestore={hideFirestore}
+						hideJS={hideJS}
+						hideBootstrap={hideBootstrap}
+					/>
+
 					<div className="project-item__container__text__tags">
 						<ul>
 							{!hideReact && <li>REACTJS</li>}
 							{!hideRouter && (
-								<li>REACT ROUTER</li>
+								<li>REACT-ROUTER</li>
 							)}
 							{!hideRedux && <li>REDUX</li>}
 							{!hideSass && <li>SASS</li>}

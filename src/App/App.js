@@ -2,10 +2,10 @@
 import { Route, Switch, Redirect } from "react-router-dom";
 
 //components
-import MyAmazingShop from "../components/projectOverview/MyAmazingShop";
-import Readeo from "../components/projectOverview/Readeo";
-import SoccerTime from "../components/projectOverview/SoccerTime";
-import Tetris from "../components/projectOverview/Tetris";
+// import MyAmazingShop from "../components/projectOverview/MyAmazingShop";
+// import Readeo from "../components/projectOverview/Readeo";
+// import SoccerTime from "../components/projectOverview/SoccerTime";
+// import Tetris from "../components/projectOverview/Tetris";
 
 // layout
 import Home from "../layout/home/Home";
@@ -15,7 +15,7 @@ const App = () => {
 		<div className="App">
 			<Switch>
 				<Route exact path={"/"} component={Home} />
-				<Route
+				{/* <Route
 					path={"/projects/myAmazingShop"}
 					component={MyAmazingShop}
 				/>
@@ -30,7 +30,7 @@ const App = () => {
 				<Route
 					path={"/projects/tetrisJS"}
 					component={Tetris}
-				/>
+				/> */}
 				<Redirect to={"/"} />
 			</Switch>
 		</div>
