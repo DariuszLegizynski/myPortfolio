@@ -29,6 +29,7 @@ const ModalComponent = ({
 		<div className="modal">
 			<button
 				className="btn"
+				id="view-project-btn"
 				onClick={() => setModalIsOpen(true)}
 			>
 				<h3>{title}</h3>
