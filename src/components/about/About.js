@@ -11,21 +11,23 @@ import icon from "../../resources/icons/sprite.svg";
 const About = () => {
 	return (
 		<section className="about" id="about">
-			<img
-				className="about__my-picture"
-				src={myPicture}
-				alt="me"
-			/>
-			<div className="about__text">
-				<h2 className="h2">
-					Hello! I'm
-					<br />
-					<span>Dariusz Legizynski</span>,
-				</h2>
-				<h3 className="h2">
-					A React Front-End developer from Wiener
-					Neustadt, AT.
-				</h3>
+			<div className="about__introduction">
+				<img
+					className="about__introduction__my-picture"
+					src={myPicture}
+					alt="me"
+				/>
+				<div className="about__introduction__text">
+					<h2 className="h2">
+						Hello! I'm
+						<br />
+						<span>Dariusz Legizynski</span>,
+					</h2>
+					<h3 className="h2">
+						A React Front-End developer from Wiener
+						Neustadt, AT.
+					</h3>
+				</div>
 			</div>
 			<div className="about__links">
 				<HashLink className="link" to="/#projects">
@@ -37,7 +39,7 @@ const About = () => {
 					</button>
 				</HashLink>
 			</div>
-			<div className="about__text">
+			<div className="about__description">
 				<p className="p">
 					After graduating with a bachelor's in
 					electronics and telecomunication, I found

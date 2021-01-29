@@ -18,4 +18,20 @@
 .projects > h1 {
   padding-bottom: 1.6rem;
 }
+
+@media only screen and (min-width: 768px) {
+  .projects__container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(10rem, 1fr))[2];
+        grid-template-columns: repeat(2, minmax(10rem, 1fr));
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .projects__container {
+    -ms-grid-columns: (minmax(10rem, 1fr))[4];
+        grid-template-columns: repeat(4, minmax(10rem, 1fr));
+  }
+}
 /*# sourceMappingURL=Projects.css.map */

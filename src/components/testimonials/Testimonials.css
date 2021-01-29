@@ -1,7 +1,6 @@
 .testimonials {
   text-align: center;
-  padding-top: 6rem;
-  padding-bottom: 3rem;
+  padding: 6rem 10% 3rem 10%;
 }
 
 .testimonials > h1 {
@@ -19,5 +18,11 @@
 .slick-dots li.slick-active button:before {
   color: #e31c6e;
   font-size: 1.6rem;
+}
+
+@media only screen and (min-width: 1024px) {
+  .testimonials {
+    padding: 6rem 30% 3rem 30%;
+  }
 }
 /*# sourceMappingURL=Testimonials.css.map */

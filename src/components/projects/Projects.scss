@@ -14,3 +14,20 @@
 		padding-bottom: 1.6rem;
 	}
 }
+
+@media only screen and (min-width: 768px) {
+	.projects {
+		&__container {
+			display: grid;
+			grid-template-columns: repeat(2, minmax(10rem, 1fr));
+		}
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	.projects {
+		&__container {
+			grid-template-columns: repeat(4, minmax(10rem, 1fr));
+		}
+	}
+}

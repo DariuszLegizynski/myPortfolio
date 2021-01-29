@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "AAGA,AAAA,kBAAkB,CAAC;EAClB,cAAc,EAAE,IAAI;CAYpB;;AAbD,AAEC,kBAFiB,GAEb,CAAC,CAAC;EACL,SAAS,ECFK,MAAM;CDGpB;;AAJF,AAMC,kBANiB,GAMb,EAAE,CAAC;EACN,OAAO,EAAE,iBAAiB;CAC1B",
+    "mappings": "AAGA,AAAA,kBAAkB,CAAC;EAClB,OAAO,EAAE,IAAI;CASb;;AAVD,AAGC,kBAHiB,GAGb,CAAC,CAAC;EACL,SAAS,ECHK,MAAM;CDIpB;;AALF,AAOC,kBAPiB,GAOb,EAAE,CAAC;EACN,OAAO,EAAE,IAAI;CACb",
     "sources": [
         "Testimonial.scss",
         "../../styles/_typography.scss",

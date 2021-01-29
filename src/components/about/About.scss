@@ -6,50 +6,8 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding: 6rem 0 3rem 0;
-
-	&__my-picture {
-		padding: 2rem;
-		border-radius: 3rem;
-		width: 100%;
-		vertical-align: middle;
-		border-style: none;
-		object-fit: cover;
-	}
-
-	&__links {
-		display: flex;
-		justify-content: center;
-		margin-top: 2rem;
-		margin-bottom: 1rem;
-
-		& button {
-			min-width: 10rem;
-		}
-	}
-
-	&__text {
-		padding: 3rem 3rem 0 3rem;
-		text-align: start;
-
-		& > h2 {
-			text-transform: capitalize;
-			margin-bottom: 1rem;
-		}
-
-		& > h3 {
-			margin-bottom: 1rem;
-		}
-
-		& > p {
-			font-size: $font-size-300;
-			margin-bottom: 1rem;
-		}
-
-		& span {
-			color: $color-main;
-		}
-	}
+	padding-top: 6rem;
+	padding-bottom: 3rem;
 
 	&__contact {
 		margin-top: 3rem;
@@ -72,6 +30,101 @@
 			display: flex;
 			flex-direction: column;
 			align-items: flex-start;
+		}
+	}
+
+	&__description {
+		padding: 3rem 7.5% 0 7.5%;
+		text-align: start;
+
+		& > p {
+			font-size: $font-size-300;
+			margin-bottom: 1rem;
+		}
+	}
+
+	&__introduction {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding: 0 7.5%;
+
+		&__my-picture {
+			padding: 2rem 0;
+			border-radius: 3rem;
+			vertical-align: middle;
+			border-style: none;
+			object-fit: cover;
+		}
+
+		&__text {
+			padding: 3rem 3rem 0 3rem;
+			text-align: start;
+
+			& > h2 {
+				text-transform: capitalize;
+				margin-bottom: 1rem;
+			}
+
+			& > h3 {
+				margin-bottom: 1rem;
+			}
+
+			& > p {
+				font-size: $font-size-300;
+				margin-bottom: 1rem;
+			}
+
+			& span {
+				color: $color-main;
+			}
+		}
+	}
+
+	&__links {
+		display: flex;
+		justify-content: center;
+		margin-top: 2rem;
+		margin-bottom: 1rem;
+
+		& button {
+			min-width: 10rem;
+		}
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	.about {
+		&__contact {
+			margin-top: 6rem;
+
+			& a {
+				display: flex;
+				align-items: center;
+				margin-bottom: 0.6rem;
+			}
+
+			& h6 {
+				font-weight: 400;
+				font-size: $font-size-400;
+			}
+
+			& .icon {
+				margin-right: 2rem;
+				width: 3rem;
+				height: 3rem;
+			}
+		}
+
+		&__description {
+			& > p {
+				font-size: $font-size-400;
+			}
+		}
+
+		&__introduction {
+			display: grid;
+			grid-template-columns: repeat(2, minmax(10px, 1fr));
 		}
 	}
 }

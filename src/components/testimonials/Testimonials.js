@@ -43,21 +43,21 @@ const Testimonials = () => {
 			<Slider {...settings}>
 				<Testimonial
 					description={
-						"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+						"He works very thoroughly and quickly. He thinks well when preparing work and does the work with great efficiency and systematics. With his extraordinary enthusiasm he convinces to a high degree. He always does his job with great energy."
 					}
-					title={"Lorem Ipsum 1"}
+					title={"Bury GmbH"}
 				/>
 				<Testimonial
 					description={
-						"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+						"Mr. Legizynski has in-depth specialist knowledge, which he was able to implement constructively in practice. He always identified with his tasks and the company. We therefore got to know him as a motivated employee who always coped well with his tasks even under difficult working conditions. He had a high level of initiative and was thus able to solve new and difficult tasks."
 					}
-					title={"Lorem Ipsum 2"}
+					title={"Elpro GmbH"}
 				/>
 				<Testimonial
 					description={
-						"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+						"He takes on his tasks and the company's interests at all times to our complete satisfaction. Mr. Legizynski always convinces with his always cooperative, confident and courteous demeanor. Due to his friendly and friendly nature, the cooperation with his superiors, colleagues and employees always goes well."
 					}
-					title={"Lorem Ipsum 3"}
+					title={"Bury GmbH"}
 				/>
 			</Slider>
 		</section>
