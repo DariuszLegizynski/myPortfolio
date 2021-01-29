@@ -36,14 +36,6 @@ const About = () => {
 						Projects
 					</button>
 				</HashLink>
-				<HashLink className="link" to="/#skills">
-					<button
-						className="btn--projects btn"
-						tabIndex="-1"
-					>
-						Skills
-					</button>
-				</HashLink>
 			</div>
 			<div className="about__text">
 				<p className="p">
