@@ -14,7 +14,7 @@ const Testimonial = ({ description, title }) => {
 				rel="noreferrer"
 				href="https://github.com/DariuszLegizynski"
 			>
-				link
+				link (in german)
 			</a>
 		</div>
 	);
