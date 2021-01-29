@@ -1,5 +1,8 @@
 import React from "react";
 
+// tools
+import { HashLink } from "react-router-hash-link";
+
 // style
 import "./About.css";
 import myPicture from "../../resources/images/myself/me.png";
@@ -17,19 +20,63 @@ const About = () => {
 				<h2 className="h2">
 					Hello! I'm
 					<br />
-					Dariusz Legizynski,
+					<span>Dariusz Legizynski</span>,
 				</h2>
 				<h3 className="h2">
 					A React Front-End developer from Wiener
 					Neustadt, AT.
 				</h3>
-				<p className="p">Lorem ipsum</p>
+			</div>
+			<div className="about__links">
+				<HashLink className="link" to="/#projects">
+					<button
+						className="btn--projects btn"
+						tabIndex="-1"
+					>
+						Projects
+					</button>
+				</HashLink>
+				<HashLink className="link" to="/#skills">
+					<button
+						className="btn--projects btn"
+						tabIndex="-1"
+					>
+						Skills
+					</button>
+				</HashLink>
+			</div>
+			<div className="about__text">
 				<p className="p">
-					I decided to take my passion seriously and
-					develop my programming skills. Each day I
-					spent coding was a joyful day for me
-					exploring new areas. I like taking on new
-					challenges.
+					After graduating with a bachelor's in
+					electronics and telecomunication, I found
+					myself in a stable career as a hardware
+					developer in various companies. While the
+					idea of working in the electronics area was
+					great, I love to spent my free time while
+					programming. One day I realized, that
+					althought I still liked my job, I was not
+					developing in this area anymore. All my
+					effort was put into learning more and more
+					about web development. This was the moment,
+					when I decided to take a leap of faith and
+					made a switch in careers.
+				</p>
+				<p className="p">
+					Since then I started my journey as a
+					self-taught web developer. I have developed a
+					strong understanding of JavaScript, React,
+					HTML5 and CSS3. I found my hardware developer
+					skills to be very usefull when it comes to
+					problem solving and pushing projects forward.
+					I enjoy learning new technologies and
+					afterwards to share my knowledge with others.
+				</p>
+				<p className="p">
+					Feel free to connect with me. Let's talk
+					about web dev, tech, nice places nearby or
+					how I can be of help to your team or
+					business. I'd love to get to know more
+					developers and expand my network.
 				</p>
 			</div>
 			<div className="about__contact">

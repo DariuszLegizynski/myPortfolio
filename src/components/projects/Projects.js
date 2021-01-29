@@ -30,7 +30,7 @@ const Projects = () => {
 						"An e-commerce web application, with purchase option and orders history."
 					}
 					descriptionLong={
-						"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+						"myAmazingShop is a simulated, e-commerce website. Built using React.js on the front-end, useContext and useReducer for state management and Node/Express on the back-end. Product data is fetched from cloud Firestore and purchase history is stored there. Alghough transactions are possible, they serve only demonstrational purpose."
 					}
 					hideRedux
 					hideJS
@@ -49,7 +49,7 @@ const Projects = () => {
 						"Get and check your favorites leagues and teams."
 					}
 					descriptionLong={
-						"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+						"SoccerTime is a website that shows all the leagues and teams from diffrent countries. It uses react-redux for state managment and firebase for authentication."
 					}
 					hideFirestore
 					hideJS
@@ -66,7 +66,7 @@ const Projects = () => {
 						"Search youtube for interesting movies and add them to your favorites."
 					}
 					descriptionLong={
-						"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+						"Readeo is a single-page application designed to help users find relevant videos on youtube and store them in custom lists."
 					}
 					hideRedux
 					hideFirebase
@@ -84,10 +84,10 @@ const Projects = () => {
 					}
 					linkGithub={"Tetris_WebApp"}
 					description={
-						"A well known tetris game. Made in pure JavaScript."
+						"Well known and loved tetris game."
 					}
 					descriptionLong={
-						"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+						"This web application has been written in vanilla JavaScript."
 					}
 					hideReact
 					hideRouter

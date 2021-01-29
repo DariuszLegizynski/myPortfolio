@@ -6,7 +6,7 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding: 3rem 0;
+	padding: 6rem 0 3rem 0;
 
 	&__my-picture {
 		padding: 2rem;
@@ -17,8 +17,19 @@
 		object-fit: cover;
 	}
 
+	&__links {
+		display: flex;
+		justify-content: center;
+		margin-top: 2rem;
+		margin-bottom: 1rem;
+
+		& button {
+			min-width: 10rem;
+		}
+	}
+
 	&__text {
-		padding: 3rem;
+		padding: 3rem 3rem 0 3rem;
 		text-align: center;
 
 		& > h2 {
@@ -34,9 +45,15 @@
 			font-size: $font-size-300;
 			margin-bottom: 1rem;
 		}
+
+		& span {
+			color: $color-main;
+		}
 	}
 
 	&__contact {
+		margin-top: 3rem;
+
 		& a {
 			display: flex;
 			align-items: center;
