@@ -79,7 +79,7 @@ const Header = () => {
 							className="link link--page"
 							target="_blank"
 							rel="noreferrer"
-							href="https://github.com/DariuszLegizynski/myPortfolio/blob/master/src/resources/text/myResume.txt"
+							href="/Resume/myResume.txt"
 							download
 						>
 							Resume
