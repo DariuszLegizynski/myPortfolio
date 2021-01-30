@@ -19,12 +19,13 @@
 	.projects {
 		&__container {
 			display: grid;
+			grid-auto-rows: 1fr;
 			grid-template-columns: repeat(2, minmax(10rem, 1fr));
 		}
 	}
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1200px) {
 	.projects {
 		&__container {
 			grid-template-columns: repeat(4, minmax(10rem, 1fr));

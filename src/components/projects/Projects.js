@@ -3,10 +3,10 @@ import ProjectItem from "../projectItem/ProjectItem";
 
 // styles
 import "./Projects.css";
-import projectImageOne from "../../resources/images/projects/myAmazingShop.png";
-import projectImageTwo from "../../resources/images/projects/soccerTime.png";
-import projectImageThree from "../../resources/images/projects/readeo.png";
-import projectImageFour from "../../resources/images/projects/jsTetris.png";
+// import projectImageOne from "../../resources/images/projects/myAmazingShop.png";
+// import projectImageTwo from "../../resources/images/projects/soccerTime.png";
+// import projectImageThree from "../../resources/images/projects/readeo.png";
+// import projectImageFour from "../../resources/images/projects/jsTetris.png";
 import mainImageOne from "../../resources/images/projects/large/myAmazingShopLarge.png";
 import mainImageTwo from "../../resources/images/projects/large/soccerTimeLarge.png";
 import mainImageThree from "../../resources/images/projects/large/readeoLarge.png";
@@ -18,7 +18,7 @@ const Projects = () => {
 			<h1>Projects</h1>
 			<div className="projects__container">
 				<ProjectItem
-					thumbnail={projectImageOne}
+					thumbnail={mainImageOne}
 					large={mainImageOne}
 					altName={"myAmazingShop"}
 					title={"my Amazing Shop"}
@@ -37,7 +37,7 @@ const Projects = () => {
 					hideBootstrap
 				/>
 				<ProjectItem
-					thumbnail={projectImageTwo}
+					thumbnail={mainImageTwo}
 					large={mainImageTwo}
 					altName={"soccerTime"}
 					title={"Soccer Time"}
@@ -56,7 +56,7 @@ const Projects = () => {
 					hideBootstrap
 				/>
 				<ProjectItem
-					thumbnail={projectImageThree}
+					thumbnail={mainImageThree}
 					large={mainImageThree}
 					altName={"readeo"}
 					linkLive={"https://readeo.netlify.app/"}
@@ -75,7 +75,7 @@ const Projects = () => {
 					hideBootstrap
 				/>
 				<ProjectItem
-					thumbnail={projectImageFour}
+					thumbnail={mainImageFour}
 					large={mainImageFour}
 					altName={"tetrisJS"}
 					title={"Tetris JS"}
