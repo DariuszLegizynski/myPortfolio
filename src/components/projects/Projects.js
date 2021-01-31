@@ -3,10 +3,6 @@ import ProjectItem from "../projectItem/ProjectItem";
 
 // styles
 import "./Projects.css";
-// import projectImageOne from "../../resources/images/projects/myAmazingShop.png";
-// import projectImageTwo from "../../resources/images/projects/soccerTime.png";
-// import projectImageThree from "../../resources/images/projects/readeo.png";
-// import projectImageFour from "../../resources/images/projects/jsTetris.png";
 import mainImageOne from "../../resources/images/projects/large/myAmazingShopLarge.png";
 import mainImageTwo from "../../resources/images/projects/large/soccerTimeLarge.png";
 import mainImageThree from "../../resources/images/projects/large/readeoLarge.png";

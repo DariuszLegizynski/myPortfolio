@@ -27,6 +27,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-top: 2rem;
 }
 
 .modal__text {
@@ -35,7 +36,7 @@
 
 .modal__text > h2 {
   font-size: 2.2rem;
-  margin: 1.2rem 0;
+  margin: 2rem 0;
 }
 
 .modal__text > p {
@@ -52,7 +53,7 @@
 }
 
 .modal__links > a {
-  margin: 1rem 0;
+  margin: 2rem 0;
 }
 
 .modal__links > a > button {
@@ -67,7 +68,7 @@
 
 .modal__technology > h2 {
   font-size: 1.9rem;
-  margin: 1.2rem 0;
+  margin: 2rem 0;
 }
 
 .modal__technology > ul {
@@ -84,7 +85,14 @@
 .modal__technology > ul > li {
   margin: 0.2rem;
   padding: 0.2rem 0.5rem;
-  background-color: #05c2c9;
-  color: #f5f5f5;
+  color: #05c2c9;
+  border-bottom: 1px solid #191a1d;
+}
+
+@media only screen and (min-width: 786px) {
+  .ReactModal__Overlay {
+    max-width: 60%;
+    left: 20% !important;
+  }
 }
 /*# sourceMappingURL=ModalComponent.css.map */
