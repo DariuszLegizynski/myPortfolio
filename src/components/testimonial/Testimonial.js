@@ -12,7 +12,7 @@ const Testimonial = ({ description, title, link }) => {
 				className="link"
 				target="_blank"
 				rel="noreferrer"
-				href={`https://github.com/Testimonials/${link}`}
+				href={`/Testimonials/${link}`}
 			>
 				link
 				<p>(in german)</p>
