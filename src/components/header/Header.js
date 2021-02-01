@@ -79,7 +79,7 @@ const Header = () => {
 							className="link link--page"
 							target="_blank"
 							rel="noreferrer"
-							href="/Resume/myResume.txt"
+							href="/Resume/Dariusz_Legizynski_CV_DE.pdf"
 							download
 						>
 							Resume
