@@ -1,7 +1,7 @@
 # myPortfolio
 My portfolio with my picture and my own projects.
 
-[Readeo]
+[myPortfolio]
 
 # Built with
 
@@ -27,7 +27,7 @@ What is needed for the software to run.
 
 1. Clone the repository
 
-`git clone https://github.com/DariuszLegizynski/myPortfolio.gitt`
+`git clone https://github.com/DariuszLegizynski/myPortfolio.git`
 
 2. Run npm install inside project root directory
 
@@ -52,5 +52,5 @@ Dariusz Legizynski - Initial work.
 
 This project is licensed under the MIT License - see the [LICENSE.md] file for details.
 
-[Readeo]: https://dariuszlegizynski.netlify.app/
+[myPortfolio]: https://dariuszlegizynski.netlify.app/
 [LICENSE.md]: https://github.com/DariuszLegizynski/myPortfolio/blob/master/LICENSE
