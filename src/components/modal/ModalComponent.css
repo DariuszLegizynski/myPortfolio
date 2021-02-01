@@ -53,7 +53,7 @@
 }
 
 .modal__links > a {
-  margin: 2rem 0;
+  margin-top: 2rem;
 }
 
 .modal__links > a > button {
