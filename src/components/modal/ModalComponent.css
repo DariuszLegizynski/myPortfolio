@@ -89,6 +89,10 @@
   border-bottom: 1px solid #191a1d;
 }
 
+.ReactModal__Overlay {
+  top: 2rem !important;
+}
+
 @media only screen and (min-width: 786px) {
   .ReactModal__Overlay {
     max-width: 60%;

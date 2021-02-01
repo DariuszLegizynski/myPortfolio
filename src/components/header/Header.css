@@ -61,4 +61,12 @@
 .header__navigation__item__icon {
   margin: 0 0.6rem;
 }
+
+@media only screen and (min-width: 900px) {
+  .header__navigation {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
 /*# sourceMappingURL=Header.css.map */

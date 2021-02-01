@@ -3,7 +3,7 @@ import React from "react";
 // styles
 import "./Testimonial.css";
 
-const Testimonial = ({ description, title }) => {
+const Testimonial = ({ description, title, link }) => {
 	return (
 		<div className="testimonial__text">
 			<p>{description}</p>
@@ -12,9 +12,10 @@ const Testimonial = ({ description, title }) => {
 				className="link"
 				target="_blank"
 				rel="noreferrer"
-				href="https://github.com/DariuszLegizynski"
+				href={`https://github.com/Testimonials/${link}`}
 			>
-				link (in german)
+				link
+				<p>(in german)</p>
 			</a>
 		</div>
 	);
