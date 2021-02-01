@@ -49,5 +49,13 @@
 		&__navigation {
 			display: flex;
 		}
+
+		&__navigation--open {
+			flex-direction: row;
+		}
+
+		&__wrapper {
+			flex-direction: row;
+		}
 	}
 }
