@@ -81,6 +81,7 @@
   border-style: none;
   -o-object-fit: cover;
      object-fit: cover;
+  max-width: 25rem;
 }
 
 .about__introduction__text {
@@ -151,12 +152,6 @@
     display: grid;
     -ms-grid-columns: (minmax(10px, 1fr))[2];
         grid-template-columns: repeat(2, minmax(10px, 1fr));
-  }
-}
-
-@media only screen and (min-width: 1024px) {
-  .about__introduction__my-picture {
-    max-width: 35rem;
   }
 }
 /*# sourceMappingURL=About.css.map */
