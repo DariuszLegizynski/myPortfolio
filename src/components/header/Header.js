@@ -23,7 +23,7 @@ const Header = () => {
 		<header className="header">
 			<div className="header__logo">
 				<Link className="link link--page" to={"/"}>
-					LOGO
+					LD
 				</Link>
 			</div>
 			<div
@@ -34,7 +34,7 @@ const Header = () => {
 				<ul
 					className={`header__navigation${burgerClass}`}
 				>
-					<div className="header__navigation__item">
+					<div className="header__navigation__item fadeInFromTop">
 						<HashLink
 							className="link link--page"
 							to="/#about"
@@ -42,7 +42,7 @@ const Header = () => {
 							About Me
 						</HashLink>
 					</div>
-					<div className="header__navigation__item">
+					<div className="header__navigation__item fadeInFromTop">
 						<HashLink
 							className="link link--page"
 							to="/#projects"
@@ -50,7 +50,7 @@ const Header = () => {
 							Projects
 						</HashLink>
 					</div>
-					<div className="header__navigation__item">
+					<div className="header__navigation__item fadeInFromTop">
 						<HashLink
 							className="link link--page"
 							to="/#skills"
@@ -58,7 +58,7 @@ const Header = () => {
 							Skills
 						</HashLink>
 					</div>
-					<div className="header__navigation__item">
+					<div className="header__navigation__item fadeInFromTop">
 						<HashLink
 							className="link link--page"
 							to="/#testimonials"
@@ -66,7 +66,7 @@ const Header = () => {
 							Testimonials
 						</HashLink>
 					</div>
-					<div className="header__navigation__item">
+					<div className="header__navigation__item fadeInFromTop">
 						<HashLink
 							className="link link--page"
 							to="/#contact"
@@ -74,7 +74,7 @@ const Header = () => {
 							Contact
 						</HashLink>
 					</div>
-					<div className="header__navigation__item">
+					<div className="header__navigation__item fadeInFromTop">
 						<a
 							className="link link--page"
 							target="_blank"

@@ -4,7 +4,7 @@ import "./Burger.css";
 
 const Burger = ({ burgerClass }) => {
 	return (
-		<div className={`burger burger${burgerClass} bounce`}>
+		<div className={`burger burger${burgerClass}`}>
 			<div className="burger__stick"></div>
 		</div>
 	);

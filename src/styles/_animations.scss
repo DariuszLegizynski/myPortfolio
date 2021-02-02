@@ -1,0 +1,18 @@
+.fadeInFromTop {
+	-webkit-animation-duration: 3s;
+	animation-duration: 3s;
+	position: relative;
+	animation: fadeInFromTop 2s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes fadeInFromTop {
+	from {
+		bottom: 10rem;
+		opacity: 0;
+	}
+	to {
+		bottom: 0rem;
+		opacity: 1;
+	}
+}
