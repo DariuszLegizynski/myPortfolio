@@ -7,7 +7,7 @@ import icon from "../../resources/icons/sprite.svg";
 const Contact = () => {
 	return (
 		<section className="contact" id="contact">
-			<h1>Get in touch:</h1>
+			<h1>Contact:</h1>
 			<div className="contact__wrapper">
 				<ul>
 					<h6>
