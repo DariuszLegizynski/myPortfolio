@@ -55,7 +55,7 @@
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: start;
-  margin-top: 3rem;
+  margin-top: 4rem;
 }
 
 .about__wrapper__text__contact a {
@@ -65,7 +65,8 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 0.2rem;
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
 }
 
 .about__wrapper__text__contact > h3 {
