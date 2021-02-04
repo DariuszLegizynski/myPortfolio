@@ -38,6 +38,7 @@ const ModalComponent = ({
 			<Modal
 				isOpen={modalIsOpen}
 				onRequestClose={() => setModalIsOpen(false)}
+				shouldCloseOnOverlayClick={true}
 			>
 				<img src={large} alt="one" />
 				<div className="modal__text">

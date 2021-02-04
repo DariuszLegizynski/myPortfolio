@@ -82,8 +82,7 @@
 }
 
 @media only screen and (min-width: 786px) {
-	.ReactModal__Overlay {
-		max-width: 60%;
-		left: 20% !important;
+	.ReactModal__Content {
+		margin: 0 30% !important;
 	}
 }
