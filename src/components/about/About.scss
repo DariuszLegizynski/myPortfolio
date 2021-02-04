@@ -2,27 +2,29 @@
 @import "../../styles/typography";
 
 .about {
-	height: auto;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	padding-top: 6rem;
-	padding-bottom: 3rem;
-
-	&__introduction {
+	&__wrapper {
+		height: auto;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		justify-items: center;
-		padding: 0 7.5%;
+		padding-top: 6rem;
+		padding-bottom: 3rem;
 
-		&__my-picture {
-			padding: 2rem 0;
-			border-radius: 1rem;
-			vertical-align: middle;
-			border-style: none;
-			object-fit: cover;
-			max-width: 25rem;
+		&__introduction {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-items: center;
+			padding: 0 7.5%;
+
+			&__my-picture {
+				padding: 2rem 0;
+				border-radius: 1rem;
+				vertical-align: middle;
+				border-style: none;
+				object-fit: cover;
+				max-width: 25rem;
+			}
 		}
 
 		&__text {
@@ -30,6 +32,9 @@
 			padding: 3rem 7.5% 0;
 
 			&__contact {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
 				margin-top: 3rem;
 
 				& a {
@@ -67,6 +72,11 @@
 			}
 
 			&__title {
+				display: flex;
+				flex-direction: column;
+				align-items: start;
+				margin-bottom: 3rem;
+
 				& > h2 {
 					text-transform: capitalize;
 					margin-bottom: 1rem;
@@ -85,7 +95,8 @@
 
 	&__links {
 		display: flex;
-		justify-content: center;
+		flex-direction: column;
+		align-items: center;
 		margin-top: 2rem;
 		margin-bottom: 1rem;
 
@@ -97,39 +108,41 @@
 
 @media only screen and (min-width: 768px) {
 	.about {
-		&__introduction {
+		&__wrapper {
 			display: grid;
 			grid-template-columns: repeat(2, minmax(10px, 1fr));
 			align-items: flex-start;
 			padding-top: 6rem;
 
-			&__text {
-				&__contact {
-					display: flex;
-					flex-direction: column;
-					align-items: center;
-
-					& a {
+			&__introduction {
+				&__text {
+					&__contact {
 						display: flex;
+						flex-direction: column;
 						align-items: center;
-						margin-bottom: 1rem;
+
+						& a {
+							display: flex;
+							align-items: center;
+							margin-bottom: 1rem;
+						}
+
+						& h6 {
+							font-weight: 400;
+							font-size: $font-size-400;
+						}
+
+						& .icon {
+							margin-right: 2rem;
+							width: 3rem;
+							height: 3rem;
+						}
 					}
 
-					& h6 {
-						font-weight: 400;
-						font-size: $font-size-400;
-					}
-
-					& .icon {
-						margin-right: 2rem;
-						width: 3rem;
-						height: 3rem;
-					}
-				}
-
-				&__description {
-					& > p {
-						font-size: $font-size-400;
+					&__description {
+						& > p {
+							font-size: $font-size-400;
+						}
 					}
 				}
 			}

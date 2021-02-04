@@ -11,14 +11,16 @@ import icon from "../../resources/icons/sprite.svg";
 const About = () => {
 	return (
 		<section className="about" id="about">
-			<div className="about__introduction">
-				<img
-					className="about__introduction__my-picture"
-					src={myPicture}
-					alt="me"
-				/>
-				<div className="about__introduction__text">
-					<div className="about__introduction__text__title">
+			<div className="about__wrapper">
+				<div className="about__wrapper__introduction">
+					<img
+						className="about__wrapper__introduction__my-picture"
+						src={myPicture}
+						alt="me"
+					/>
+				</div>
+				<div className="about__wrapper__text">
+					<div className="about__wrapper__text__title">
 						<h2 className="h2">
 							Hello! I'm
 							<br />
@@ -29,7 +31,7 @@ const About = () => {
 							from Wiener Neustadt, AT.
 						</h3>
 					</div>
-					<div className="about__introduction__text__description">
+					<div className="about__wrapper__text__description">
 						<p className="p">
 							After graduating with a bachelor's in
 							electronics and telecomunication, I
@@ -68,7 +70,7 @@ const About = () => {
 							expand my network.
 						</p>
 					</div>
-					<div className="about__introduction__text__contact">
+					<div className="about__wrapper__text__contact">
 						<h3>Get in touch with me:</h3>
 						<ul>
 							<h6>
@@ -166,14 +168,20 @@ const About = () => {
 				</div>
 			</div>
 			<div className="about__links">
-				<HashLink className="link" to="/#projects">
+				<a
+					className="link link--page"
+					target="_blank"
+					rel="noreferrer"
+					href="/Resume/Dariusz_Legizynski_CV_DE.pdf"
+					download
+				>
 					<button
 						className="btn--projects btn"
 						tabIndex="-1"
 					>
-						Projects
+						Resume
 					</button>
-				</HashLink>
+				</a>
 			</div>
 		</section>
 	);
