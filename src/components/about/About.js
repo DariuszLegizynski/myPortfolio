@@ -176,7 +176,7 @@ const About = () => {
 						className="btn--projects btn"
 						tabIndex="-1"
 					>
-						Resume
+						Resume (CV)
 					</button>
 				</a>
 			</div>

@@ -82,7 +82,7 @@ const Header = () => {
 							href="/Resume/Dariusz_Legizynski_CV_DE.pdf"
 							download
 						>
-							Resume
+							Resume (CV)
 							<svg className="header__navigation__item__icon icon--download icon">
 								<use
 									href={
