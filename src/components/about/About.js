@@ -1,8 +1,5 @@
 import React from "react";
 
-// tools
-import { HashLink } from "react-router-hash-link";
-
 // style
 import "./About.css";
 import myPicture from "../../resources/images/myself/DariuszLegizynski.png";
