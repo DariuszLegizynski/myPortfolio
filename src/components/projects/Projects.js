@@ -21,16 +21,16 @@ const Projects = () => {
 						"https://wi-mag-7587c.web.app/home"
 					}
 					linkGithub={"wi-mag"}
-					description={
-						"."
-					}
+					description={"Webpage for a company who sells racks. Written with Vue3js Composition API"}
 					descriptionLong={
-						"This web application has been written with Vue3js Composition API."
+						"This web application has been written with Vue3js Composition API. It was made for a company who sells racks and wanted to present its products."
 					}
 					hideReact
 					hideRouter
 					hideRedux
 					Sass
+					hideJS
+					hideBootstrap
 				/>
 				<ProjectItem
 					thumbnail={mainImageOne}
@@ -42,7 +42,7 @@ const Projects = () => {
 					}
 					linkGithub={"myAmazingShop"}
 					description={
-						"An e-commerce web application, with purchase option and orders history."
+						"An e-commerce web application, with purchase option and order history."
 					}
 					descriptionLong={
 						"myAmazingShop is a simulated, e-commerce website. Built using React.js on the front-end, useContext and useReducer for state management and Node/Express on the back-end. Product data is fetched from cloud Firestore and purchase history is stored there. Alghough transactions are possible, they serve only demonstrational purpose."

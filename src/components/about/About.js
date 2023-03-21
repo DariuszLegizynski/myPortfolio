@@ -24,7 +24,8 @@ const About = () => {
 							<span>Dariusz Legizynski</span>,
 						</h2>
 						<h3 className="h2">
-							A React Front-End developer <br />
+							A Vue and React Front-End developer<br />
+							with some Backend (Nodejs) experience <br/>
 							from Wiener Neustadt, AT.
 						</h3>
 					</div>

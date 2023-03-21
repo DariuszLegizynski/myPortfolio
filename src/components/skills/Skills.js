@@ -36,6 +36,7 @@ const Skills = () => {
 					name={"redux1"}
 					description={"React-Redux"}
 				/>
+				<Skill name={"vue"} description={"Vuejs"} />
 			</div>
 			<div className="skills__text">
 				<h2>Tools</h2>
