@@ -31,33 +31,14 @@ const About = () => {
 					</div>
 					<div className="about__wrapper__text__description">
 						<p className="p">
-							After graduating with a bachelor's in
-							electronics and telecomunication, I
-							found myself in a stable career as a
-							hardware developer in various
-							companies. While the idea of working
-							in the electronics area was great, I
-							love to spent my free time while
-							programming. One day I realized, that
-							althought I still liked my job, I was
-							not developing in this area anymore.
-							All my effort was put into learning
-							more and more about web development.
-							This was the moment, when I decided
-							to take a leap of faith and made a
-							switch in careers.
+							For the 2 last years of work as software developer I gathered experience in developing apps in Vue with the use of Nodejs.
+							My main goal was to support the development of a large crm and cms webpage for our customer.
+							
 						</p>
 						<p className="p">
-							Since then I started my journey as a
-							self-taught web developer. I have
-							developed a strong understanding of
-							JavaScript, React, HTML5 and CSS3. I
-							found my hardware developer skills to
-							be very usefull when it comes to
-							problem solving and pushing projects
-							forward. I enjoy learning new
-							technologies and afterwards to share
-							my knowledge with others.
+						During this period I developed a strong understanding on how to solve software problems and also how to structure the apps and code itself.
+							Since I enjoy learning new
+							technologies I treat my work as a hobby and enjoy doing it.
 						</p>
 						<p className="p">
 							Feel free to connect with me. Let's
