@@ -1,11 +1,1 @@
-{
-    "version": 3,
-    "mappings": "AAGA,AAAA,kBAAkB,CAAC;EAClB,OAAO,EAAE,IAAI;CASb;;AAVD,AAGC,kBAHiB,CAGf,CAAC,CAAC;EACH,SAAS,ECFK,MAAM;CDGpB;;AALF,AAOC,kBAPiB,GAOb,EAAE,CAAC;EACN,OAAO,EAAE,IAAI;CACb",
-    "sources": [
-        "Testimonial.scss",
-        "../../styles/_typography.scss",
-        "../../styles/_variables.scss"
-    ],
-    "names": [],
-    "file": "Testimonial.css"
-}
+{"version":3,"sources":["Testimonial.scss","Testimonial.css","../../styles/_typography.scss"],"names":[],"mappings":"AAGA;EACC,aAAA;ACFD;ADIC;EACC,iBEFc;ADAhB;ADKC;EACC,aAAA;ACHF","file":"Testimonial.css"}

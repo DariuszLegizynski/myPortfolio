@@ -1,87 +1,56 @@
 .modal #view-project-btn {
-  -webkit-transform: translatey(10rem);
-          transform: translatey(10rem);
+  transform: translatey(10rem);
 }
-
 .modal #view-project-btn > * {
   color: #f5f5f5;
 }
-
 .modal #view-project-btn > h3 {
   font-size: 1.6rem;
   margin: 0.6rem 0;
 }
-
 .modal #view-project-btn > p {
   font-size: 1.3rem;
 }
-
 .modal__btn {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  align-items: center;
   margin-top: 2rem;
 }
-
 .modal__text {
   text-align: center;
 }
-
 .modal__text > h2 {
   font-size: 2.2rem;
   margin: 2rem 0;
 }
-
 .modal__text > p {
   font-size: 1.3rem;
 }
-
 .modal__links {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
-
 .modal__links > a {
   margin-top: 2rem;
 }
-
 .modal__links > a > button {
   margin: 1rem;
   padding: 0.3rem 0.6rem;
   font-size: 1.6rem;
 }
-
 .modal__technology {
   text-align: center;
 }
-
 .modal__technology > h2 {
   font-size: 1.9rem;
   margin: 2rem 0;
 }
-
 .modal__technology > ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex-wrap: wrap;
+  justify-content: center;
 }
-
 .modal__technology > ul > li {
   margin: 0.2rem;
   padding: 0.2rem 0.5rem;
@@ -97,5 +66,4 @@
   .ReactModal__Content {
     margin: 0 30% !important;
   }
-}
-/*# sourceMappingURL=ModalComponent.css.map */
+}/*# sourceMappingURL=ModalComponent.css.map */

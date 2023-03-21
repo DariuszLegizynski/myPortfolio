@@ -1,11 +1,1 @@
-{
-    "version": 3,
-    "mappings": "AAGA,AAAA,aAAa,CAAC;EACb,UAAU,EAAE,MAAM;EAClB,OAAO,EAAE,iBAAiB;CAK1B;;AAPD,AAIC,aAJY,GAIR,EAAE,CAAC;EACN,cAAc,EAAE,IAAI;CACpB;;AAGF,AAAA,WAAW,CAAC,EAAE,CAAC;EACd,MAAM,EAAE,QAAQ;CAChB;;AAED,AAAA,WAAW,CAAC,EAAE,CAAC,MAAM,AAAA,OAAO,CAAC;EAC5B,SAAS,EEVM,MAAM;CFWrB;;AAED,AAAA,WAAW,CAAC,EAAE,AAAA,aAAa,CAAC,MAAM,AAAA,OAAO,CAAC;EACzC,KAAK,ECjBY,OAAO;EDkBxB,SAAS,EEfM,MAAM;CFgBrB;;AAED,MAAM,MAAM,MAAM,MAAM,SAAS,EAAE,MAAM;EACxC,AAAA,aAAa,CAAC;IACb,OAAO,EAAE,iBAAiB;GAC1B",
-    "sources": [
-        "Testimonials.scss",
-        "../../styles/_variables.scss",
-        "../../styles/_typography.scss"
-    ],
-    "names": [],
-    "file": "Testimonials.css"
-}
+{"version":3,"sources":["Testimonials.scss","Testimonials.css","../../styles/_typography.scss","../../styles/_variables.scss"],"names":[],"mappings":"AAGA;EACC,kBAAA;EACA,0BAAA;ACFD;ADIC;EACC,oBAAA;ACFF;;ADMA;EACC,gBAAA;ACHD;;ADMA;EACC,iBEVe;ADOhB;;ADMA;EACC,cGjBiB;EHkBjB,iBEfe;ADYhB;;ADMA;EACC;IACC,0BAAA;ECHA;AACF","file":"Testimonials.css"}

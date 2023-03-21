@@ -16,6 +16,8 @@ const ProjectItem = ({
 	hideReact,
 	hideRouter,
 	hideRedux,
+	hideVue,
+	hideVueRouter,
 	hideSass,
 	hideFirebase,
 	hideFirestore,
@@ -38,6 +40,8 @@ const ProjectItem = ({
 						descriptionLong={descriptionLong}
 						linkLive={linkLive}
 						linkGithub={linkGithub}
+						hideVue={hideVue}
+						hideVueRouter={hideVueRouter}
 						hideReact={hideReact}
 						hideRouter={hideRouter}
 						hideRedux={hideRedux}
@@ -50,6 +54,8 @@ const ProjectItem = ({
 
 					<div className="project-item__container__text__tags">
 						<ul>
+							{!hideVue && <li>VUE3JS</li>}
+							{!hideVueRouter && <li>VUE-ROUTER</li>}
 							{!hideReact && <li>REACTJS</li>}
 							{!hideRouter && (
 								<li>REACT-ROUTER</li>

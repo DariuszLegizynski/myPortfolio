@@ -1,12 +1,7 @@
 .header {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(25, 26, 29, 0.6)), to(rgba(25, 26, 29, 0.6)));
   background: linear-gradient(rgba(25, 26, 29, 0.6), rgba(25, 26, 29, 0.6));
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   position: fixed;
   top: 0;
   z-index: 10;
@@ -14,76 +9,42 @@
   padding: 1.5rem 2.5rem;
   border-bottom: 3px solid #f5f5f5;
 }
-
 .header__logo > a {
   font-family: "Rouge Script", cursive;
   font-size: 1.9rem;
 }
-
 .header__wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  flex-direction: column;
+  align-items: flex-end;
 }
-
 .header__navigation {
   display: none;
 }
-
 .header__navigation--open {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  flex-direction: column;
+  align-items: flex-end;
 }
-
 .header__navigation__item {
   margin: 0 1rem;
 }
-
 .header__navigation__item > .link {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
-
 .header__navigation__item__icon {
   margin: 0 0.6rem;
 }
 
 @media only screen and (min-width: 900px) {
   .header__navigation {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
   .header__navigation--open {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    flex-direction: row;
   }
   .header__wrapper {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    flex-direction: row;
   }
-}
-/*# sourceMappingURL=Header.css.map */
+}/*# sourceMappingURL=Header.css.map */

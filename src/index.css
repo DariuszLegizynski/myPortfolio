@@ -6,11 +6,9 @@
   border-radius: 3rem;
   cursor: pointer;
 }
-
 .btn:hover, .btn:focus, .btn:active {
   outline: none;
 }
-
 .btn--projects {
   background-color: #05c2c9;
   margin: 2rem;
@@ -20,44 +18,33 @@
 
 .link {
   color: #191a1d;
-  -webkit-transition: all 0.2s ease-in;
   transition: all 0.2s ease-in;
   cursor: pointer;
 }
-
 .link:link, .link:visited, .link:active {
   outline: none;
   text-decoration: none;
 }
-
 .link:focus, .link:hover {
   outline: none;
   text-decoration: none;
   color: #05c2c9;
-  -webkit-transform: scale(1.05);
-          transform: scale(1.05);
-  -webkit-transition: all 0.2s ease-in-out;
+  transform: scale(1.05);
   transition: all 0.2s ease-in-out;
 }
-
 .link:focus > button.btn--projects, .link:hover > button.btn--projects {
   background-color: #069cdb;
-  -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-
 .link--contact {
   color: #191a1d;
 }
-
 .link--page {
   color: #f5f5f5;
 }
-
 .link--page:hover, .link--page:focus {
   color: #05c2c9;
-  -webkit-transform: none;
-          transform: none;
+  transform: none;
 }
 
 .icon {
@@ -65,50 +52,31 @@
   height: 2.2rem;
   width: 2.2rem;
 }
-
 .icon:hover, .icon:focus {
   outline: none;
   fill: #05c2c9;
 }
-
 .icon--download {
   height: 1.6rem;
   width: 1.6rem;
   fill: #05c2c9;
 }
-
 .icon--footer {
   fill: #f5f5f5;
 }
-
 .icon--footer:hover, .icon--footer:focus {
   fill: #191a1d;
 }
-
 .icon--skill {
   height: 6rem;
   width: 6rem;
 }
 
 .fadeInFromTop {
-  -webkit-animation-duration: 3s;
   animation-duration: 3s;
   position: relative;
-  -webkit-animation: fadeInFromTop 2s;
-          animation: fadeInFromTop 2s;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-}
-
-@-webkit-keyframes fadeInFromTop {
-  from {
-    bottom: 10rem;
-    opacity: 0;
-  }
-  to {
-    bottom: 0rem;
-    opacity: 1;
-  }
+  animation: fadeInFromTop 2s;
+  animation-fill-mode: forwards;
 }
 
 @keyframes fadeInFromTop {
@@ -121,19 +89,16 @@
     opacity: 1;
   }
 }
-
 *,
 *::before,
 *::after {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: inherit;
-          box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 html {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   font-size: 80%;
   scroll-behavior: smooth;
 }
@@ -173,5 +138,4 @@ h5,
 p,
 span {
   color: #191a1d;
-}
-/*# sourceMappingURL=index.css.map */
+}/*# sourceMappingURL=index.css.map */
